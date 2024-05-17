@@ -193,3 +193,72 @@ Response Headers: {"server":"ZGS","date":"Fri, 17 May 2024 06:29:04 GMT","conten
 [debug] [2024-05-17T06:29:04.740Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
 
 [debug] [2024-05-17T06:29:04.744Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
+[debug] [2024-05-17T06:40:16.099Z] : 
+[debug] [2024-05-17T06:40:16.101Z] : ----------------------------------------------------------------------
+[debug] [2024-05-17T06:40:16.101Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-05-17T06:40:16.101Z] : CLI Version:  1.17.5
+[debug] [2024-05-17T06:40:16.102Z] : Platform:     win32
+[debug] [2024-05-17T06:40:16.102Z] : Node Version: v20.11.1
+[debug] [2024-05-17T06:40:16.102Z] : Time:         Fri May 17 2024 12:10:16 GMT+0530 (India Standard Time)
+[debug] [2024-05-17T06:40:16.102Z] : ----------------------------------------------------------------------
+[debug] [2024-05-17T06:40:16.103Z] : 
+[debug] [2024-05-17T06:40:16.551Z] : > authorizing via signed-in user option
+[debug] [2024-05-17T06:40:16.552Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-05-17T06:40:16.561Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/15205000000094080 
+
+[debug] [2024-05-17T06:40:17.970Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 17 May 2024 06:40:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=98d72b15-e2d2-4601-a00d-d4def5404037;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=98d72b15-e2d2-4601-a00d-d4def5404037;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-17T06:40:17.976Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/15205000000094080/environment 
+
+[debug] [2024-05-17T06:40:18.321Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 17 May 2024 06:40:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=9fcdfff3-09fd-46d3-b8f7-14f467c0b8e0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9fcdfff3-09fd-46d3-b8f7-14f467c0b8e0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-17T06:40:18.442Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/15205000000094080/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-05-17T06:40:18.787Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 17 May 2024 06:40:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=6fad0bf7-977b-488d-95d9-392b4a97b56d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6fad0bf7-977b-488d-95d9-392b4a97b56d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-17T06:40:18.792Z] : unknown eol undefined hence skipping check
+[info] [2024-05-17T06:40:20.503Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-05-17T06:40:20.505Z] : 
+[info] [2024-05-17T06:40:20.505Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-05-17T06:40:20.505Z] : 
+[info] [2024-05-17T06:40:21.772Z] : 
+[info] [2024-05-17T06:40:21.772Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-05-17T06:40:21.773Z] : i admindatas5_function: http://localhost:3000/server/admindatas5_function/
+[info] [2024-05-17T06:40:21.773Z] : 
+[info] [2024-05-17T06:40:21.773Z] : 
+[info] [2024-05-17T06:40:21.774Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-05-17T06:40:21.774Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-05-17T06:40:21.774Z] : 
+[info] [2024-05-17T06:40:23.471Z] : [react-plugin]: Compiled successfully!
+[info] [2024-05-17T06:40:23.471Z] : [react-plugin]: 
+[info] [2024-05-17T06:40:23.471Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2024-05-17T06:40:23.471Z] : [react-plugin]: 
+[info] [2024-05-17T06:40:23.472Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-05-17T06:40:23.472Z] : [react-plugin]:   On Your Network:  http://192.168.31.105:3000/app/
+[info] [2024-05-17T06:40:23.472Z] : [react-plugin]: 
+[info] [2024-05-17T06:40:23.473Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-05-17T06:40:23.473Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-05-17T06:40:23.473Z] : [react-plugin]: 
+[info] [2024-05-17T06:41:13.292Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-05-17T06:41:13.292Z] : [react-plugin]: Module not found: Error: Can't resolve './reportWebVitals' in 'C:\catalyst project\admindatas5\react-app\src'
+[info] [2024-05-17T06:41:29.022Z] : Shutting down server
+[info] [2024-05-17T06:41:29.063Z] : 
+[info] [2024-05-17T06:41:29.064Z] : √ Shutdown complete
+[debug] [2024-05-17T06:41:29.064Z] : NO ERRORS REGISTERED
+[debug] [2024-05-17T06:41:29.064Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-05-17T06:41:29.064Z] : TOTAL DURATION OF COMMAND EXEC : 72521
+[debug] [2024-05-17T06:41:29.090Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-05-17T06:41:33.023Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 17 May 2024 06:41:33 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"141","connection":"keep-alive","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","JSESSIONID=A6B0276FFDF352AB4408E5EDA75B092A; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-05-17T06:41:33.027Z] : Response Body : {"status":"failure","data":{"error_code":"MORE_THAN_MAX_LENGTH","message":"Please check if the length of the input is in the correct range"}}
+
+[debug] [2024-05-17T06:41:33.030Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the length of the input is in the correct range
