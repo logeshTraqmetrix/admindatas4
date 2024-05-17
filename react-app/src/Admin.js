@@ -10,7 +10,7 @@ const Admin = () => {
 
   useEffect(() => {
     console.log("Outside")
-    axios.get('/server/admindatas5_function/getoutput')
+    axios.get('https://admindatas4-808166282.development.catalystserverless.com/server/admindatas5_function/getoutput')
       .then((res) => {
         console.log(res.data);
         console.log('hello')

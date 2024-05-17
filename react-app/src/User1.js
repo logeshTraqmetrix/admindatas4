@@ -6,7 +6,7 @@ const User = () => {
   let [userData,setUserData] = useState([])
 
    useEffect(() => {
-      axios.get('/server/admindatas5_function/getoutput?role=user') 
+      axios.get('https://admindatas4-808166282.development.catalystserverless.com/server/admindatas5_function/getoutput?role=user') 
           .then((res) => {
               console.log(res.data);
               setUserData(res.data)

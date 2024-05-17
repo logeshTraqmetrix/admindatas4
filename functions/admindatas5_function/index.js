@@ -65,7 +65,7 @@ function getDataFromCatalystDataStore(catalystApp, tableName , role) {
 // 	});
    
 //   }
-
+console.log('hello server')
 
 app.use((err, req, res, next) => {
 	console.error(err.stack);
